@@ -109,6 +109,9 @@ Plug 'davidhalter/jedi-vim'
 " Auto closing parens etc
 Plug 'jiangmiao/auto-pairs'
 
+" Markdown plugin
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+
 call plug#end()
 
 "lua packages
@@ -142,4 +145,5 @@ set background=dark
 " https://github.com/junegunn/vim-plug
 " https://github.com/tpope/vim-surround
 " https://github.com/lervag/vimtex
+" https://github.com/instant-markdown/vim-instant-markdown
 "}}}1
