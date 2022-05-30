@@ -1,41 +1,35 @@
 "{{{ Basic settings
-set nocompatible                            " do not be compatible with vi
-filetype plugin indent on " Use color syntax highlighting.
+set nocompatible                                            " do not be compatible with vi
+filetype plugin indent on                                   " Use color syntax highlighting.
 syntax on
 
-set foldmethod=marker  " fold the text with "{{{ Description and end with "}}} 1
-"set foldmethod=indent  " fold the text at indent
-set autoindent "copy the indentation from the previous line, when starting a new line
-set backspace=2		" Allows insert-mode backspace to work as one expects
-set fileformat=unix	" No crazy CR/LF
-set listchars=tab:\ \ ,trail:· " If you do ":set list", shows trailing spaces
-set mouse=""		" I don't like the mouse in VIM
-"set nobackup		" Don't use a backup file (also see writebackup)
-set writebackup		" Write temporary backup files in case we crash
-set hlsearch		" Do highlight search terms
-set ignorecase      " searches are case insensitive...
-set smartcase       " ... unless they contain at least one capital letter
-set ruler		" Show the line position at the bottom of the window
-set scrolloff=10		" Minimum lines between cursor and window edge (virtual lines)
-set showcmd		" Show partially typed commands
-set showmatch		" Show parentheses matching
-set textwidth=80	" Maximum line width
-" For everything else, use a tab width of 4 space chars.
-set tabstop=4       " The width of a TAB is set to 4.
-" Still it is a \t. It is just that
-" Vim will interpret it to be having
-" a width of 4.
-set shiftwidth=4    " when indenting with '>', use 4 spaces width
-set expandtab       " Expand TABs to spaces.
-set encoding=utf-8
-"" Line numbering
-set number
-set relativenumber
+set foldmethod=marker                                       " fold the text with "{{{ Description and end with "}}} 1
+"set foldmethod=indent                                      " fold the text at indent
+set autoindent                                              " copy the indentation from the previous line, when starting a new line
+set backspace=2                                             " Allows insert-mode backspace to work as one expects
+set fileformat=unix                                         " No crazy CR/LF
+set listchars=tab:\ \ ,trail:·                              " If you do ":set list", shows trailing spaces
+set mouse=""                                                " Disabled mouse selection so C + S + C/V work
+"set nobackup                                               " Don't use a backup file (also see writebackup)
+set writebackup                                             " Write temporary backup files in case we crash
+set hlsearch                                                " Do highlight search terms
+set ignorecase                                              " searches are case insensitive...
+set smartcase                                               " ... unless they contain at least one capital letter
+set ruler                                                   " Show the line position at the bottom of the window
+set scrolloff=10                                            " Minimum lines between cursor and window edge (virtual lines)
+set showcmd                                                 " Show partially typed commands
+set showmatch                                               " Show parentheses matching
+set textwidth=80                                            " Maximum line width
+set tabstop=4                                               " The width of a TAB is set to 4. Still it is a \t.
+set shiftwidth=4                                            " when indenting with '>', use 4 spaces width
+set expandtab                                               " Expand TABs to spaces.
+set encoding=utf-8                                          " encoding
+set number                                                  " line numbering
+set relativenumber                                          " relative line numbering 
 "set completeopt=longest,menuone
-set spell spelllang=hr,en,cjk
-set spellfile=/home/dbanic/.config/nvim/spell/hr.utf-8.add
-"incremental search
-set incsearch
+set spell spelllang=hr,en,cjk                               " dictionary
+set spellfile=/home/dbanic/.config/nvim/spell/hr.utf-8.add  " added new words go here
+set incsearch                                               " incremental search
 
 " disable python2 for nvim
 let g:loaded_python_provider = 0
