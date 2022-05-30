@@ -1,4 +1,5 @@
 "{{{ Basic settings
+set nocompatible                            " do not be compatible with vi
 filetype plugin indent on " Use color syntax highlighting.
 syntax on
 
