@@ -139,4 +139,7 @@ set background=dark
 "}}} 1
 "{{{ Docs
 " https://www.jakewiesler.com/blog/getting-started-with-vim
+" https://github.com/junegunn/vim-plug
+" https://github.com/tpope/vim-surround
+" https://github.com/lervag/vimtex
 "}}}1
