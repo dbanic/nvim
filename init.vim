@@ -139,7 +139,6 @@ let g:Tex_DefaultTargetFormat = 'pdf'
 "let g:solarized_base16=1
 "set background=light
 "let g:solarized_termcolors=256
-"colorscheme gruvbox
 colorscheme gruvbox
 set background=dark
 "}}} 1
