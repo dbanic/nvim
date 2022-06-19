@@ -112,6 +112,9 @@ Plug 'jiangmiao/auto-pairs'
 " Markdown plugin
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 
+" cht.sh integration
+Plug 'Djancyp/cheat-sheet'
+
 call plug#end()
 
 "lua packages
