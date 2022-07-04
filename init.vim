@@ -115,6 +115,9 @@ Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn in
 " cht.sh integration
 Plug 'Djancyp/cheat-sheet'
 
+" indent lines
+Plug 'lukas-reineke/indent-blankline.nvim'
+
 call plug#end()
 
 "lua packages
