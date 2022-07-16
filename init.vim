@@ -133,10 +133,11 @@ let g:powerline_loaded = 1
 let g:powerline_pycmd = 'py3'
 set laststatus=2
 
-" to use vim-latexsuite
-"set grepprg=grep\ -nH\ $*
-let g:tex_flavor = "xelatex"
-let g:Tex_DefaultTargetFormat = 'pdf'
+" vimtex
+let g:vimtex_view_general_viewer = 'okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+let g:vimtex_compiler_method = 'latexmk'
+
 "}}}1
 "{{{ Theme
 "set background=dark
