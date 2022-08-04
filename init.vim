@@ -103,9 +103,6 @@ Plug 'lervag/vimtex'
 " vim surround
 Plug 'tpope/vim-surround'
 
-" python stuff
-Plug 'davidhalter/jedi-vim'
-
 " Auto closing parens etc
 Plug 'jiangmiao/auto-pairs'
 
