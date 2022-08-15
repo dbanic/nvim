@@ -103,9 +103,6 @@ Plug 'lervag/vimtex'
 " vim surround
 Plug 'tpope/vim-surround'
 
-" Auto closing parens etc
-Plug 'jiangmiao/auto-pairs'
-
 " Markdown plugin
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 
