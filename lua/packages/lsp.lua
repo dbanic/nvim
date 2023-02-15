@@ -1,6 +1,6 @@
 -- lspconfig
 local nvim_lsp = require('lspconfig')
-local servers = { 'hls', 'bashls', 'jedi_language_server', 'yamlls', 'rust_analyzer', 'gopls', 'texlab', 'intelephense', 'html', 'sumneko_lua' }
+local servers = { 'hls', 'bashls', 'jedi_language_server', 'yamlls', 'rust_analyzer', 'gopls', 'texlab', 'intelephense', 'html', 'lua_ls' }
 
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
@@ -36,7 +36,7 @@ end
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
-local servers = { 'hls', 'bashls', 'jedi_language_server', 'yamlls', 'rust_analyzer', 'gopls', 'texlab', 'intelephense', 'html', 'sumneko_lua' }
+local servers = { 'hls', 'bashls', 'jedi_language_server', 'yamlls', 'rust_analyzer', 'gopls', 'texlab', 'intelephense', 'html', 'lua_ls' }
 for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup {
         capabilities = capabilities,
